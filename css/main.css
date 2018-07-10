@@ -1,0 +1,139 @@
+@font-face {
+    font-family: Avenir-Book;
+    src: url('../fonts/Avenir/AvenirLTStd-Book.otf'); 
+}
+@font-face {
+    font-family: Avenir-Light;
+    src: url('../fonts/Avenir/AvenirLTStd-Light.otf'); 
+}
+@font-face {
+    font-family: Avenir-Medium;
+    src: url('../fonts/Avenir/AvenirLTStd-Medium.otf'); 
+}
+@font-face {
+    font-family: Avenir-Roman;
+    src: url('../fonts/Avenir/AvenirLTStd-Roman.otf'); 
+}
+@font-face {
+    font-family: Avenir-Black;
+    src: url('../fonts/Avenir/Avenir Black.otf'); 
+}
+@font-face {
+    font-family: Avenir-Heavy;
+    src: url('../fonts/Avenir/Avenir Heavy.otf'); 
+}
+* {
+    margin: 0px; 
+    padding: 0px; 
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    margin: 0px; 
+    padding: 0px; 
+    font-family: "Avenir-Medium", sans-serif;
+  font-weight: 400;
+}
+
+.type{
+  margin-left: 90px;
+  width: 80%;
+  position: relative;
+}
+  .type h2 {
+  overflow: hidden; 
+  white-space: nowrap; 
+  margin: 0 auto; 
+  margin-top: 200px;
+  letter-spacing: .06em; 
+  animation-delay: 7s;
+  animation-delay: 250ms;
+  animation: 
+  typing 4.0s steps(40, end), /*speed*/
+   blink-caret .65s step-end infinite;
+  color: white;
+   font-family: "Avenir-Medium", "Roboto", sans-serif;
+}
+@keyframes typing {
+  from { width: 0 }
+  to { width: 80% }
+}
+
+.headn{
+    color: green;
+    font-size: bold;
+    /*margin-top: 10px;*/
+}
+.nava{
+    /*background-color: yellow*/
+}
+
+@media screen and (min-width:1090px){
+   .banner{
+        /*width: 700px;*/
+        background-position: relative;
+        }
+        .type h2{
+  font-size: 50px;
+  width: 80%;
+        }
+
+}
+@media screen and (max-width:623px){
+   .banner{/*
+        width: 700px;
+        background-position: relative;*/
+        }
+        .type{
+  margin-left: 1px;
+  width: 100%;
+        }
+}
+@media screen and (max-width:505px){
+        .type h2{
+  margin-left: 1px;
+  width: 100%;
+  font-size: 30px;
+        }
+
+}
+.banner{
+    margin-top: 100px;
+    height: 400px;
+    background-image: url('../imgs/Capture.png');
+    /*background-color: red;*/
+    background-size: cover;
+}
+.heada{
+    font-family: "Avenir-Medium", sans-serif;
+
+}
+footer{
+    background-color:#004c00;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.footer-social{
+    width: 230px;
+    margin: 0 auto;
+}
+.footer-social ul{
+    list-style-type: none;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.social-mgs{
+    margin-left: 30px;
+    height: 26px;
+    width: 26px;
+}
+.copyright{
+    color: white;
+    font-size: 20px;
+}
+.btn1{
+    background-color: yellow;
+    color: black;
+}
